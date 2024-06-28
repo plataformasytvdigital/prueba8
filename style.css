@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/736x/46/e5/1d/46e51d14ec4c26195c93351ece72e215.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search i {
+    font-size: 25px;
+    color: black;
+}
+.search-txt {
+    display: flex;
+    align-items: center;
+}
+
+
+.movies {
+    padding: 50px 0 150px 0;
+}
+.movies h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.swiper {
+    width: 100%;
+}
+.swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    
+}
+.icons {
+    padding: 0 350px 50px 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i {
+    font-size: 25px;
+    color: rgb(253, 251, 251);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i:hover {
+    color: #f8010a;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.boton {
+    background-color: #8c070e; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding:20px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como elemento en línea */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 4px 2px; /* Margen externo */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    border-radius: 8px; /* Bordes redondeados */
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 100%;
+}
+.boton:hover{
+background:  #8c070e;
+box-shadow: 0 0 10px  #8c070e, 0 0 40px  #8c070e, 0 0 80px  #8c070e;
+}
+
+
+@media(max-width:991px) {
+    body{
+        min-height: 0vh;
+    }
+    .search {
+        padding: 30px 30px 0 30px;
+    }
+    .movies {
+        padding: 30px;
+    }
+    .icons {
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
